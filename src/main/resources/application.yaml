@@ -1,0 +1,19 @@
+
+server:
+  port: 8085
+
+
+spring:
+  application:
+    name: event booking
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/event_booking
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
